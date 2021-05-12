@@ -36,3 +36,83 @@
     transform: rotate(360deg);
   }
 }
+*{
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;;
+}
+body{
+background-color: black;
+min-height: 100vh;
+  width: 100%;
+}
+.carddiv{
+  background-color:#1c1e1d;
+  
+    opacity: 3;
+}
+.btncard{
+  padding: 3px;
+  color: #00FFFF;
+  border-radius: 5px;
+  background-color:#145A32;
+  border: 0px;
+  font-size: 0.8em;
+  margin-bottom: 1px;
+
+}
+.carddiv h6{
+  color: white;
+}
+.carddiv p{
+  color: #999b84;
+}
+
+.imageside{
+ height:107px;
+  clip-path: polygon(50%0%,100%0%,100%100%,50%100%,0%50%);
+}
+
+@media (min-width:1025px) 
+{ .container { width: 80% !important;}
+
+     }
+
+.buttonTrue {
+  display: inline-block;
+  padding: 0px 4px;
+  margin-bottom: 3px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #00FFFF;
+  background-color: #145A32;
+  border: none;
+  border-radius: 5px;
+ 
+}
+
+.buttonFalse {
+  display: inline-block;
+  padding: 0px 4px;
+  margin-bottom: 3px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #999b84;
+  background-color: #3f4241;
+  border: none;
+  border-radius: 5px;
+ 
+}
+
+.window_imag{
+   padding: 10px;
+}
+
+
+
+
